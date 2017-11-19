@@ -9,11 +9,9 @@ import java.util.Scanner;
 public class factor {
        public static void main(String args[]) {
            int n, fact = 1;
-           int number = 5;
-           Scanner keyboard = new Scanner(System.in);
-
+           Scanner keyboard=new Scanner(System.in);
            System.out.println("Type a number to Find Factorial");
-
+            int number =keyboard.nextInt();
            for (n = 1; n <= number; n++) {
                fact = fact * n;
            }
